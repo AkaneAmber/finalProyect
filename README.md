@@ -1,4 +1,4 @@
-#🥬AkCosto Fruver 
+#🥬AkCosto Fruver
 ##Sistema de Inventario en Java
 AkCosto Fruver es una aplicación de escritorio desarrollada en Java que permite gestionar de manera sencilla un inventario de productos para una frutería o tienda. Utiliza JOptionPane para proporcionar una interfaz gráfica básica de interacción con el usuario.
 
