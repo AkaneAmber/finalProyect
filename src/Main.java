@@ -43,7 +43,6 @@ public class Main {
 
                 try {
                     int sizeInventoryProduct = Integer.parseInt(input);
-
                     if (sizeInventoryProduct < 0) {
                         JOptionPane.showMessageDialog(null, "La cantidad no puede ser negativa.");
                         return;
@@ -102,7 +101,6 @@ public class Main {
                                 "4. Crear producto para el inventario\n" +
                                 "5. Buscar producto\n" +
                                 "6. Salir");
-
                 userOption = Integer.parseInt(input);
 
                 switch (userOption) {
