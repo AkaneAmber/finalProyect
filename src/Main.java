@@ -89,7 +89,7 @@ public class Main {
 
     public static void main(String[] args) {
         int userOption;
-
+        boolean exitOption = false;
         do {
             try {
                 String input = JOptionPane.showInputDialog(null,
@@ -121,6 +121,7 @@ public class Main {
                         break;
                     case 6:
                         JOptionPane.showMessageDialog(null, "¡Gracias por usar AkCosto Fruver!");
+                        exitOption = true;
                         break;
                     default:
                         JOptionPane.showMessageDialog(null, "Opción no válida. Por favor seleccione una opción del 1 al 6.");
@@ -129,6 +130,6 @@ public class Main {
                 JOptionPane.showMessageDialog(null, "Error: Por favor ingrese un número válido.");
                 userOption = 0;
             }
-        } while (userOption != 5);
+        } while (!exitOption);
     }
 }
